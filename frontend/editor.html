@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Fusion</title>
+</head>
+
+<body>
+    <div id="editor-app">
+        <div class="navbar bg-violet-600 text-white mb-10 px-20 flex justify-end">
+            <a href="index.html" id="switch" class="btn btn-ghost text-base">Vissza a honlapra</a>
+        </div>
+
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+                Termék hozzáadása
+            </div>
+            <div class="flex w-fit pl-10 collapse-content gap-2 items-center">
+                <label for="select-input">Típusa:</label>
+                <select name="type" id="select-input" class="px-4 rounded-md">
+                    <option value="laptop">laptop</option>
+                    <option value="smartwatch">óra</option>
+                    <option value="smartphone">telefon</option>
+                </select>
+                <label for="name">Neve:</label>
+                <input type="text" id="name" placeholder="Termék neve" class="px-4 rounded-md">
+                <label for="price">Ára:</label>
+                <input type="number" id="price" placeholder="Termék ára" class="px-4 rounded-md">
+                <label for="url">Kép:</label>
+                <input type="text" id="url" placeholder="url"
+                    value="https://img.freepik.com/free-photo/white-cat-lies-woman-s-knees_8353-539.jpg?t=st=1708864585~exp=1708868185~hmac=d153b2f02d4a48ecf9733e8dc1607a6a626fff213d88e5ea41f793fba1efc504&w=1380"
+                    class="px-4 rounded-md">
+                <button id="add-new-product" class="btn bg-violet-500 hover:bg-violet-900 text-white">Hozzáadás</button>
+            </div>
+        </div>
+    </div>
+    <div id="delete-or-modify" class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">
+            Termék törlése vagy módosítása
+        </div>
+        <div class="flex flex-col w-fit pl-10 collapse-content gap-6 items-center">
+            <div id="all-product-in-editor">
+                <button id="editorAll" class="btn bg-violet-500 hover:bg-violet-900 text-white">Minden termék
+                    listázása</button>
+            </div>
+        </div>
+    </div>
+    <div id="updateInputsDiv"
+        class="justify-center items-center hidden fixed z-10 inset-0 bg-transparent backdrop-blur-lg">
+        <div class="p-4 bg-violet-500 border-info rounded-lg">
+            <select name="type" id="updatedTypeInput" class="updateInput">
+                <option value="laptop">laptop</option>
+                <option value="smartwatch">óra</option>
+                <option value="smartphone">telefon</option>
+            </select>
+            <input type="text" class="updateInput" id="updatedNameInput" placeholder="New name">
+            <input type="number" class="updateInput" id="updatedPriceInput" placeholder="New price">
+            <input type="url" class="updateInput" id="updatedImgInput" placeholder="New img">
+            <button id="save" class="btn btn-success">Save</button>
+            <button id="cancel" class="btn btn-error">Cancel</button>
+        </div>
+    </div>
+    <script type="module" src="/src/editor.ts"></script>
+
+</body>
+
+</html>

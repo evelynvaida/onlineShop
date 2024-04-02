@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Fusion</title>
+</head>
+
+<body id="asd" class="h-screen">
+  <div class="navbar bg-blue-400 text-white mb-10 px-20">
+    <div class="flex-1">
+      <ul class="menu menu-horizontal px-1 text-xl gap-8">
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><button id="allproduct">Minden termék</button></li>
+        <li><button id="cartButton">Kosár</button></li>
+      </ul>
+    </div>
+    <div class="flex-none">
+      <a href="editor.html" class="btn btn-ghost text-base">Váltás editor módra</a>
+    </div>
+  </div>
+  <!--   <div class="max-w-screen-2xl flex flex-col justify-center items-center mx-auto">
+    <div id="banner" class="hero">
+      <div class="hero-content flex-col lg:flex-row">
+        <img src="assets/129728.jpg" alt="banner"
+          class="max-w-screen-xl rounded-tl-[60px] rounded-br-[60px] shadow-2xl">
+        <p class=" text-white md:text-5xl text-3xl text-center absolute">Frontend Fusion</p>
+      </div>
+    </div>
+    <p class="md:text-lg text-base font-extralight text-center mx-5 md:mx-28 my-10">Lorem ipsum, dolor sit amet
+      consectetur adipisicing elit. Natus explicabo perferendis accusamus optio consectetur minima aspernatur commodi.
+      Voluptatibus eum, dolore nisi a tempora ab incidunt cupiditate, quos eos odit sequi?.</p>
+  </div> -->
+
+  <div id="app" class="flex flex-row gap-10 flex-wrap justify-center">
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="assets/laptop-with-blank-black-screen-white-table_53876-97915.jpg" alt="Laptop" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Laptopok</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions">
+          <button id="laptop" class="btn btn-primary text-white hover:bg-violet-600">Megnézem</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="assets/smartwatch-screen-digital-device_53876-97321.jpg" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Okosórák</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions">
+          <button id="smartwatch" class="btn btn-primary text-white hover:bg-violet-600">Megnézem</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="assets/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Telefonok</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions">
+          <button id="mobile" class="btn btn-primary text-white hover:bg-violet-600">Megnézem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--   <footer class="flex justify-end">
+    <div class="navbar bg-blue-400 text-white px-20 mt-20">
+      <div class="flex-none">
+        <a href="https://github.com/pavaberna/ya-online-shop-javascript-evelynvaida"
+          class="btn btn-ghost text-base">Készítette: a Frontend Fusion csapata</a>
+      </div>
+    </div>
+  </footer> -->
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

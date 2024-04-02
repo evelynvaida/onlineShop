@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "type": "laptop",
+    "productName": "Microsoft Surface Laptop 4",
+    "price": 1299.99,
+    "imgSrc": "https://imagedelivery.net/pjXEwQ5mgCM0WtJa4WheRQ/dcc81457-fdd9-44ac-bd00-fcad56a9d900/ProductViewPop"
+  },
+  {
+    "id": 2,
+    "type": "laptop",
+    "productName": "Acer Swift 5",
+    "price": 999.99,
+    "imgSrc": "https://image.alza.cz/products/NC138j1m3c3a/NC138j1m3c3a.jpg?width=500&height=500"
+  },
+  {
+    "id": 3,
+    "type": "laptop",
+    "productName": "Lenovo Legion 5",
+    "price": 1099.99,
+    "imgSrc": "https://image.alza.cz/products/NTHU408j2/NTHU408j2.jpg?width=500&height=500"
+  },
+  {
+    "id": 4,
+    "type": "laptop",
+    "productName": "ASUS ROG Zephyrus G14",
+    "price": 1499.99,
+    "imgSrc": "https://image.alza.cz/products/NA670a89/NA670a89.jpg?width=500&height=500"
+  },
+  {
+    "id": 5,
+    "type": "laptop",
+    "productName": "HP Envy x360",
+    "price": 849.99,
+    "imgSrc": "https://image.alza.cz/products/HPCN5010p5a/HPCN5010p5a.jpg?width=500&height=500"
+  },
+  {
+    "id": 6,
+    "type": "smartphone",
+    "productName": "iPhone 13 Pro",
+    "price": 1099.99,
+    "imgSrc": "https://image.alza.cz/products/RI038b5/RI038b5.jpg?width=500&height=500"
+  },
+  {
+    "id": 7,
+    "type": "smartphone",
+    "productName": "Google Pixel 6",
+    "price": 899.99,
+    "imgSrc": "https://image.alza.cz/products/GPX1068b1/GPX1068b1.jpg?width=500&height=500"
+  },
+  {
+    "id": 8,
+    "type": "smartphone",
+    "productName": "OnePlus 9",
+    "price": 999.99,
+    "imgSrc": "https://image.alza.cz/products/ONE0091b2/ONE0091b2.jpg?width=500&height=500"
+  },
+  {
+    "id": 9,
+    "type": "smartphone",
+    "productName": "Xiaomi Mi 11",
+    "price": 899.99,
+    "imgSrc": "https://image.alza.cz/products/HXI266b2/HXI266b2.jpg?width=500&height=500"
+  },
+  {
+    "id": 10,
+    "type": "smartphone",
+    "productName": "Sony Xperia 1 III",
+    "price": 1299.99,
+    "imgSrc": "https://image.alza.cz/products/SOM0102b1/SOM0102b1.jpg?width=500&height=500"
+  },
+  {
+    "id": 11,
+    "type": "smartwatch",
+    "productName": "Samsung Galaxy Watch 4 Classic",
+    "price": 349.99,
+    "imgSrc": "https://image.alza.cz/products/SaGALW446bHU/SaGALW446bHU.jpg?width=500&height=500"
+  },
+  {
+    "id": 12,
+    "type": "smartwatch",
+    "productName": "Fitbit Versa 3",
+    "price": 229.99,
+    "imgSrc": "https://s13emagst.akamaized.net/products/32320/32319921/images/res_9e973c9b5434d46732bd2bd46a933959.jpg?width=450&height=450&hash=C0399FE1A97CFD2440A300297A4A220B"
+  },
+  {
+    "id": 13,
+    "type": "smartwatch",
+    "productName": "Garmin Venu 2",
+    "price": 399.99,
+    "imgSrc": "https://image.alza.cz/products/PPven002b1/PPven002b1.jpg?width=500&height=500"
+  },
+  {
+    "id": 14,
+    "type": "smartwatch",
+    "productName": "Amazfit GTR 3",
+    "price": 199.99,
+    "imgSrc": "https://image.alza.cz/products/XIgtr3Prb/XIgtr3Prb.jpg?width=500&height=500"
+  },
+  {
+    "id": 15,
+    "type": "smartwatch",
+    "productName": "Huawei Watch GT 3 Pro",
+    "price": 299.99,
+    "imgSrc": "https://image.alza.cz/products/HUWGTpr46c/HUWGTpr46c.jpg?width=500&height=500"
+  },
+  {
+    "id": 18,
+    "type": "laptop",
+    "productName": "Asus ZenBook Pro Duo",
+    "price": 2499.99,
+    "imgSrc": "https://image.alza.cz/products/NA563z71c/NA563z71c.jpg?width=500&height=500"
+  },
+  {
+    "id": 17,
+    "type": "smartphone",
+    "productName": "Samsung Galaxy S21 Ultra",
+    "price": 1199.99,
+    "imgSrc": "https://s13emagst.akamaized.net/products/34408/34407359/images/res_3df3d94cf9f07117708b0b885ea9123e.jpg?width=450&height=450&hash=5C9BE2D4C2D5C3D8976D02CE52EE6243"
+  },
+  {
+    "id": 16,
+    "type": "smartwatch",
+    "productName": "Apple Watch Series 7",
+    "price": 399.99,
+    "imgSrc": "https://image.alza.cz/products/JA070c45n6/JA070c45n6.jpg?width=500&height=500"
+  },
+  {
+    "id": 19,
+    "type": "laptop",
+    "productName": "Dell XPS 15",
+    "price": 1799.99,
+    "imgSrc": "https://image.alza.cz/products/ADC825hu8/ADC825hu8.jpg?width=500&height=500"
+  },
+  {
+    "id": 20,
+    "type": "laptop",
+    "productName": "HP Spectre x360",
+    "price": 1299.99,
+    "imgSrc": "https://image.alza.cz/products/HPCN1022h5/HPCN1022h5.jpg?width=500&height=500"
+  },
+  {
+    "id": 21,
+    "type": "laptop",
+    "productName": "Lenovo ThinkPad X1 Carbon",
+    "price": 1699.99,
+    "imgSrc": "https://image.alza.cz/products/NT187h25h4hc/NT187h25h4hc.jpg?width=500&height=500"
+  },
+  {
+    "id": 22,
+    "type": "smartphone",
+    "productName": "Sony Xperia 5 III",
+    "price": 999.99,
+    "imgSrc": "https://image.alza.cz/products/SOM0104b3/SOM0104b3.jpg?width=500&height=500"
+  },
+  {
+    "id": 23,
+    "type": "smartphone",
+    "productName": "OnePlus 10",
+    "price": 1199.99,
+    "imgSrc": "https://image.alza.cz/products/ONE0087b1/ONE0087b1.jpg?width=500&height=500"
+  },
+  {
+    "id": 24,
+    "type": "smartphone",
+    "productName": "Google Pixel 7",
+    "price": 1099.99,
+    "imgSrc": "https://image.alza.cz/products/GPX1070b2/GPX1070b2.jpg?width=500&height=500"
+  },
+  {
+    "id": 25,
+    "type": "smartwatch",
+    "productName": "Fossil Gen 6",
+    "price": 299.99,
+    "imgSrc": "https://img.eobuwie.cloud/eob_product_656w_656h(f/4/4/b/f44b8a68a9ad8f4404b02abc8163b3ef52f72570_01_4064092070811_az,webp)/okosorak-fossil-gen-6-ftw4061-black.webp"
+  },
+  {
+    "id": 26,
+    "type": "smartwatch",
+    "productName": "Xiaomi Mi Watch",
+    "price": 149.99,
+    "imgSrc": "https://image.alza.cz/products/HUXI7000e1/HUXI7000e1.jpg?width=500&height=500"
+  },
+  {
+    "id": 27,
+    "type": "smartwatch",
+    "productName": "Samsung Galaxy Watch Active 2",
+    "price": 249.99,
+    "imgSrc": "https://s13emagst.akamaized.net/products/39335/39334348/images/res_1448db21078edabda99121265e34d1f5.jpg?width=450&height=450&hash=01D8D6A6E88D241E3C84923A33873F9D"
+  }
+]
